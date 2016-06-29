@@ -11,10 +11,6 @@ Performance basics are covered: assets are minified into single CSS and JS files
 
 [LIVE PREVIEW](http://buckymaler.com/featured-work/apollo)
 
-## Quick start:
-
-* [Download the latest release](https://github.com/BuckyMaler/Apollo/archive/master.zip) or clone the repo
-
 ## Misc:
 
 * Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)

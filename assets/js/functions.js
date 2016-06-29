@@ -29,44 +29,6 @@ function smoothScroll(){
 	
 }
 
-function sectionFade() {
-	
-	if ($(window).height() > 800){
-		$('#about, #full-slide, #featured, #three-slide, #contact').css({'opacity' : '1'});
-	}
-	
-	else {
-
-		$(window).scroll(function(){
-		
-			var wScroll = $(window).scrollTop();
-			
-			if (wScroll > $('#about').offset().top - ($(window).height() / 1.5)) {
-				$('#about').addClass('showing');
-			}
-			
-			if (wScroll > ($('#full-slide').offset().top - ($(window).height() / 1.5))) {
-				$('#full-slide').addClass('showing');
-			}
-			
-			if (wScroll > ($('#featured').offset().top - ($(window).height() / 1.5))) {
-				$('#featured').addClass('showing');
-			}
-			
-			if (wScroll > ($('#three-slide').offset().top - ($(window).height() / 1.5))) {
-				$('#three-slide').addClass('showing');
-			}
-			
-			if (wScroll > ($('#contact').offset().top - ($(window).height() / 1.5))) {
-				$('#contact').addClass('showing');
-			}
-				
-		});
-		
-	}
-	
-}
-
 function fullSlider(){
 
 	$('#full-slide .prev, #full-slide .next').click(function(){
@@ -196,8 +158,6 @@ function threeSlider(){
 nav();
 
 smoothScroll();
-
-sectionFade();
 
 fullSlider();
 
