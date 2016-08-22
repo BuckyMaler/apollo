@@ -5,7 +5,7 @@ Apollo is a minimal, thoughtfully designed single page website template, and ser
 Here you can find the original [PSD](https://symu.co/freebies/templates-4/apollo-psd-template/)
 by [Jakub Kowalczyk](https://www.behance.net/jakubdesign)
 
-This project was developed with Jade, Sass, and JavaScript.
+This project was developed with Jade, Sass, and jQuery.
 
 Performance basics are covered: assets are minified into single CSS and JS files, and the images are optimized.
 
