@@ -5,7 +5,7 @@
 Apollo is a minimal, thoughtfully designed single page website template, and serves as the perfect showcase for a professional photographer.
 
 Here you can find the original [PSD](https://symu.co/freebies/templates-4/apollo-psd-template/)
-by [Jakub Kowalczyk].
+by Jakub Kowalczyk.
 
 This project was developed with Jade, Sass, and jQuery.
 
